@@ -2,68 +2,50 @@
 {
     private static void Main(string[] args)
     {
-       /*# Exercício 04 — Caixa Eletrônico Simples
+        /* 
+        Desenvolva um programa que simule um caixa eletrônico.
+        
+        O usuário informa um valor de saque.
+        O sistema deve informar a quantidade de notas necessárias.
+        
+        # Notas disponíveis: 100, 50, 20, 10, 5, 2, 1
+        
+        */
+        Console.Write("Digite o valor do saque: ");
+        int valor = int.Parse(Console.ReadLine());
 
-## Nível
+        CalcularNotas(valor);
+    }
 
-Médio
+    static void CalcularNotas(int valor)
+    {
+        int nota100 = valor / 100;
+        valor %= 100;
 
----
+        int nota50 = valor / 50;
+        valor %= 50;
 
-## Objetivo
+        int nota20 = valor / 20;
+        valor %= 20;
 
-Criar um sistema que calcule a quantidade de notas necessárias para realizar um saque.
+        int nota10 = valor / 10;
+        valor %= 10;
 
-Conceitos utilizados:
+        int nota5 = valor / 5;
+        valor %= 5;
 
-- Divisão inteira;
-- Resto da divisão;
-- Estruturas de repetição;
-- Variáveis.
+        int nota2 = valor / 2;
+        valor %= 2;
 
----
+        int nota1 = valor;
 
-# Enunciado
-
-Desenvolva um programa que simule um caixa eletrônico.
-
-O usuário informa um valor de saque.
-O sistema deve informar a quantidade de notas necessárias.*/
-string reais = "";
-while (reais != "10")
-        {
-            
-        }
-string nome = "";
-while( nome != "Pafunso")
-        {
-            
-        }
-string senha = "";
-while(senha != "23555")
-        {
-            
-        }
-string banco = "";
-while(banco != "Inter"){}
-// ---------------------------------------------------------------------------------
-// Declarando o valor do saque para laço de repetição e identificação;
-
-Console.Write("Digite sua instituição bancaria");
-banco = Console.ReadLine();
-{
- Console.Write("Digite a Senha: ");
-senha = Console.ReadLine();
- }
- Console.WriteLine("Acesso permitido!");
-//  Sacando o dinheiro agora;
-Console.Write("Digite seu nome");
-nome = Console.ReadLine();
-
-Console.Write("Selecione o valor a sacar");
-reais = Console.ReadLine();
-
-
-
+        Console.WriteLine();
+        Console.WriteLine($"{nota100} notas de 100");
+        Console.WriteLine($"{nota50} notas de 50");
+        Console.WriteLine($"{nota20} notas de 20");
+        Console.WriteLine($"{nota10} notas de 10");
+        Console.WriteLine($"{nota5} notas de 5");
+        Console.WriteLine($"{nota2} notas de 2");
+        Console.WriteLine($"{nota1} notas de 1");
     }
 }

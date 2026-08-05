@@ -2,58 +2,73 @@
 {
     private static void Main(string[] args)
     {
-        /*# Exercício 03 — Sistema de Aprovação Escolar
+        /* 
+        ## Objetivo: Criar um sistema que calcule a média de um aluno e informe sua situação.
+        
+        Conceitos utilizados:
+        - Variáveis;
+        - Condições;
+        - Operadores relacionais;
+        - Métodos.
 
-## Nível
+        # Enunciado: Desenvolva um programa escolar que receba:
+        - Nome do aluno;
+        - Três notas.
 
-Fácil
+        O sistema deve calcular a média final.
+        
+        # Regras
+        Caso a média seja: Maior ou igual a 7 -> Aprovado
+                           Entre 5 e 6.9 -> Recuperação
+                           Menor que 5 ->Reprovado
+        */
 
----
+        Console.Write("Nome do aluno: ");
+        string nome = Console.ReadLine();
 
-## Objetivo
+        Console.Write("Digite a primeira nota: ");
+        double nota1 = double.Parse(Console.ReadLine());
 
-Criar um sistema que calcule a média de um aluno e informe sua situação.
 
-Conceitos utilizados:
+        Console.Write("Digite a segunda nota: ");
+        double nota2 = double.Parse(Console.ReadLine());
 
-- Variáveis;
-- Condições;
-- Operadores relacionais;
-- Métodos.
 
----
+        Console.Write("Digite a terceira nota: ");
+        double nota3 = double.Parse(Console.ReadLine());
 
-# Enunciado
 
-Desenvolva um programa escolar que receba:
+        double media = CalcularMedia(nota1,nota2,nota3);
 
-- Nome do aluno;
-- Três notas.
+        string situacao = VerificarSituacao(media);
 
-O sistema deve calcular a média final.*/
+        Console.WriteLine();
 
-int idade = 16;
-string nome = "Pafunso";
-bool estudante = true;
-double d1 = 70;
-double d2 = 60;
-double d3 = 30;
+        Console.WriteLine($"Aluno: {nome}");
+        Console.WriteLine($"Média: {media:F1}");
+        Console.WriteLine($"Situação: {situacao}");
+    }
 
-double resultado = 0;
 
-// Calcular a nota do aluno Pafunso
-resultado = d1 + d2 + d3 ;
+    static double CalcularMedia(double n1,double n2, double n3)
+    {
+        return (n1 + n2 + n3) / 3;
+    }
 
-Console.WriteLine("A soma das suas notas é: "+ resultado);
 
-resultado = d1 / d2 / d3 ;
-Console.WriteLine("Nome do aluno registrado no sistema: " + nome);
-
-Console.WriteLine("Idade do aluno no sistema : " + idade);
-
-Console.WriteLine("A medía final do aluno Pafunso é: " + resultado);
-
-Console.WriteLine("O aluno se encontra na profissão de: "  + estudante);
-
+    static string VerificarSituacao(double media)
+    {
+        if(media >= 7)
+        {
+            return "Aprovado";
+        }
+        else if(media >= 5)
+        {
+            return "Recuperação";
+        }
+        else
+        {
+            return "Reprovado";
+        }
     }
 }
