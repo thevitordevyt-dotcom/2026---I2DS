@@ -1,0 +1,15 @@
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\bin\Debug\net10.0\Encapsulamento.exe
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\bin\Debug\net10.0\Encapsulamento.deps.json
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\bin\Debug\net10.0\Encapsulamento.runtimeconfig.json
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\bin\Debug\net10.0\Encapsulamento.dll
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\bin\Debug\net10.0\Encapsulamento.pdb
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.AssemblyInfo.cs
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.sourcelink.json
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.dll
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\refint\Encapsulamento.dll
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.pdb
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\Encapsulamento.genruntimeconfig.cache
+C:\Users\DS1.ECFP790N1308530\Documents\2026 - I2DS\Aula-04\03 - Encapsulamento\Encapsulamento\obj\Debug\net10.0\ref\Encapsulamento.dll
